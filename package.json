@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \" cd client && npm start \"     \" cd server && npx nodemon server \" ",
-    "heroku-pstbuild" : "NPM_CONFIG_PRODUCTION=false cd client && npm install && cd client && npm run build "
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
